@@ -127,3 +127,6 @@
 [submodule "plugged/tagalong.vim"]
 	path = plugged/tagalong.vim
 	url = https://github.com/AndrewRadev/tagalong.vim
+[submodule "plugged/c.vim"]
+	path = plugged/c.vim
+	url = https://github.com/vim-scripts/c.vim
