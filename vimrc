@@ -376,6 +376,9 @@ nnoremap <leader>ss :SaveSession<Space>
 nnoremap <leader>sd :DeleteSession<CR>
 nnoremap <leader>sc :CloseSession<CR>
 
+let &t_TI = ""
+let &t_TE = ""
+
 "" Tabs
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
