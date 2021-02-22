@@ -1,135 +1,135 @@
 [submodule "plugged/CSApprox"]
-	path = plugged/CSApprox
+	path = bundle/CSApprox
 	url = https://github.com/vim-scripts/CSApprox
 [submodule "plugger/ale"]
 	path = plugger/ale
 	url = https://github.com/dense-analysis/ale
 [submodule "plugged/ale"]
-	path = plugged/ale
+	path = bundle/ale
 	url = https://github.com/dense-analysis/ale
 [submodule "plugged/async.vim"]
-	path = plugged/async.vim
+	path = bundle/async.vim
 	url = https://github.com/prabirshrestha/async.vim
 [submodule "plugged/bracey.vim"]
-	path = plugged/bracey.vim
+	path = bundle/bracey.vim
 	url = https://github.com/turbio/bracey.vim
 [submodule "plugged/asyncomplete.vim"]
-	path = plugged/asyncomplete.vim
+	path = bundle/asyncomplete.vim
 	url = https://github.com/prabirshrestha/asyncomplete.vim
 [submodule "plugged/asyncomplete-lsp.vim"]
-	path = plugged/asyncomplete-lsp.vim
+	path = bundle/asyncomplete-lsp.vim
 	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
 [submodule "plugged/delimitMate"]
-	path = plugged/delimitMate
+	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate
 [submodule "plugged/emmet-vim"]
-	path = plugged/emmet-vim
+	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim
 [submodule "plugged/fzf.vim"]
-	path = plugged/fzf.vim
+	path = bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 [submodule "plugged/grep.vim"]
-	path = plugged/grep.vim
+	path = bundle/grep.vim
 	url = https://github.com/vim-scripts/grep.vim
 [submodule "plugged/indentLine"]
-	path = plugged/indentLine
+	path = bundle/indentLine
 	url = https://github.com/Yggdroot/indentLine
 [submodule "plugged/jedi-vim"]
-	path = plugged/jedi-vim
+	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim
 [submodule "plugged/molokai"]
-	path = plugged/molokai
+	path = bundle/molokai
 	url = https://github.com/tomasr/molokai
 [submodule "plugged/nerdtree"]
-	path = plugged/nerdtree
+	path = bundle/nerdtree
 	url = https://github.com/preservim/nerdtree
 [submodule "plugged/requirements.txt.vim"]
-	path = plugged/requirements.txt.vim
+	path = bundle/requirements.txt.vim
 	url = https://github.com/raimon49/requirements.txt.vim
 [submodule "plugged/rust.vim"]
-	path = plugged/rust.vim
+	path = bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim
 [submodule "plugged/split-manpage.vim"]
-	path = plugged/split-manpage.vim
+	path = bundle/split-manpage.vim
 	url = https://github.com/ludwig/split-manpage.vim
 [submodule "plugged/tagbar"]
-	path = plugged/tagbar
+	path = bundle/tagbar
 	url = https://github.com/preservim/tagbar
 [submodule "plugged/vim-airline"]
-	path = plugged/vim-airline
+	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "plugged/vim-airline-themes"]
-	path = plugged/vim-airline-themes
+	path = bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "plugged/vim-coloresque"]
-	path = plugged/vim-coloresque
+	path = bundle/vim-coloresque
 	url = https://github.com/gko/vim-coloresque
 [submodule "plugged/vim-commentary"]
-	path = plugged/vim-commentary
+	path = bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary
 [submodule "plugged/vim-css3-syntax"]
-	path = plugged/vim-css3-syntax
+	path = bundle/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax
 [submodule "plugged/vim-fugitive"]
-	path = plugged/vim-fugitive
+	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
 [submodule "plugged/vim-gitgutter"]
-	path = plugged/vim-gitgutter
+	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "plugged/vim-go"]
-	path = plugged/vim-go
+	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go
 [submodule "plugged/vim-haml"]
-	path = plugged/vim-haml
+	path = bundle/vim-haml
 	url = https://github.com/tpope/vim-haml
 [submodule "plugged/vim-javascript-syntax"]
-	path = plugged/vim-javascript-syntax
+	path = bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax
 [submodule "plugged/vim-lsp"]
-	path = plugged/vim-lsp
+	path = bundle/vim-lsp
 	url = https://github.com/prabirshrestha/vim-lsp
 [submodule "plugged/vim-misc"]
-	path = plugged/vim-misc
+	path = bundle/vim-misc
 	url = https://github.com/xolox/vim-misc
 [submodule "plugged/vim-nerdtree-tabs"]
-	path = plugged/vim-nerdtree-tabs
+	path = bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs
 [submodule "plugged/vimproc.vim"]
-	path = plugged/vimproc.vim
+	path = bundle/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim
 [submodule "plugged/vim-racer"]
-	path = plugged/vim-racer
+	path = bundle/vim-racer
 	url = https://github.com/racer-rust/vim-racer
 [submodule "plugged/vim-rhubarb"]
-	path = plugged/vim-rhubarb
+	path = bundle/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb
 [submodule "plugged/vim-session"]
-	path = plugged/vim-session
+	path = bundle/vim-session
 	url = https://github.com/xolox/vim-session
 [submodule "plugged/vim-snippets"]
-	path = plugged/vim-snippets
+	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets
 [submodule "plugged/vim-surround"]
-	path = plugged/vim-surround
+	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "plugged/vim-vue"]
-	path = plugged/vim-vue
+	path = bundle/vim-vue
 	url = https://github.com/posva/vim-vue
 [submodule "plugged/vim-vue-plugin"]
-	path = plugged/vim-vue-plugin
+	path = bundle/vim-vue-plugin
 	url = https://github.com/leafOfTree/vim-vue-plugin
 [submodule "plugged/ultisnips"]
-	path = plugged/ultisnips
+	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips
 [submodule "plugged/vim-bootstrap-updater"]
-	path = plugged/vim-bootstrap-updater
+	path = bundle/vim-bootstrap-updater
 	url = https://github.com/editor-bootstrap/vim-bootstrap-updater
 [submodule "plugged/tagalong.vim"]
-	path = plugged/tagalong.vim
+	path = bundle/tagalong.vim
 	url = https://github.com/AndrewRadev/tagalong.vim
 [submodule "plugged/c.vim"]
-	path = plugged/c.vim
+	path = bundle/c.vim
 	url = https://github.com/vim-scripts/c.vim
 [submodule "plugged/syntastic"]
-	path = plugged/syntastic
+	path = bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic
