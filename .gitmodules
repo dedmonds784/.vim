@@ -124,3 +124,6 @@
 [submodule "plugged/vim-bootstrap-updater"]
 	path = plugged/vim-bootstrap-updater
 	url = https://github.com/editor-bootstrap/vim-bootstrap-updater
+[submodule "plugged/tagalong.vim"]
+	path = plugged/tagalong.vim
+	url = https://github.com/AndrewRadev/tagalong.vim
