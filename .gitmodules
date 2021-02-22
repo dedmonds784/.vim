@@ -121,3 +121,6 @@
 [submodule "plugged/ultisnips"]
 	path = plugged/ultisnips
 	url = https://github.com/SirVer/ultisnips
+[submodule "plugged/vim-bootstrap-updater"]
+	path = plugged/vim-bootstrap-updater
+	url = https://github.com/editor-bootstrap/vim-bootstrap-updater
