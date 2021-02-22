@@ -130,3 +130,6 @@
 [submodule "plugged/c.vim"]
 	path = plugged/c.vim
 	url = https://github.com/vim-scripts/c.vim
+[submodule "plugged/syntastic"]
+	path = plugged/syntastic
+	url = https://github.com/vim-syntastic/syntastic

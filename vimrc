@@ -35,6 +35,7 @@ execute pathogen#infect()
 "*****************************************************************************
 "" Plug install packages
 "*****************************************************************************
+Plug 'vim-syntastic/syntastic'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-commentary'
@@ -69,7 +70,7 @@ Plug 'Shougo/vimproc.vim', {'do': g:make}
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 
-"" Snippets
+"" Snippet
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
@@ -80,7 +81,7 @@ Plug 'honza/vim-snippets'
 " c
 Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
 Plug 'ludwig/split-manpage.vim'
-
+Plug 'vim-scripts/c.vim'
 
 " go
 "" Go Lang Bundle
