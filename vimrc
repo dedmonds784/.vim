@@ -1,7 +1,8 @@
+" loadplugins
 execute pathogen#infect()
+call pathogen#helptags()
 
-
-" Required:
+" Required
 filetype plugin indent on
 
 "*****************************************************************************
@@ -15,6 +16,41 @@ set ttyfast
 
 "" Fix backspace indent
 set backspace=indent,eol,start
+
+" enable mouse for terminal
+if has('mouse')
+  set mouse=a
+endif
+
+" settings
+set noswapfile
+set splitright
+set splitbelow
+set autowrite
+set autoread
+set hidden
+au FocusLost * :wa
+set nowritebackup
+
+" handle long lines
+set wrap
+set textwidth=80
+set formatoptions=qrn1
+
+" syntax higlighting
+set nocursorcolumn
+set nocursorline
+
+syntax sync minlines=256
+set synmaxcol=300
+set re=1
+
+" do not fold markdown
+set conceallevel=0
+
+set fileformats=unix,mac,dos
+
+set noshowmode
 
 "" Tabs. May be overridden by autocmd rules
 set tabstop=4
@@ -367,6 +403,11 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-w>l
+
 "*****************************************************************************
 "" Custom configs
 "*****************************************************************************
@@ -440,7 +481,7 @@ augroup go
 augroup END
 
 " ale
-:call extend(g:ale_linters, {
+call extend(g:ale_linters, {
     \"go": ['golint', 'go vet'], })
 
 
