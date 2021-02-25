@@ -371,7 +371,8 @@ function! s:build_go_files()
     call go#cmd#Build(0)
   endif
 endfunction
-
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
