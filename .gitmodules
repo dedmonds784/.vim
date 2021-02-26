@@ -133,3 +133,9 @@
 [submodule "plugged/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic
+[submodule "bundle/vim-ragtag"]
+	path = bundle/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe

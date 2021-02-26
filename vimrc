@@ -4,7 +4,7 @@ call pathogen#helptags()
 
 " Required
 filetype plugin indent on
-
+packadd! matchit
 "*****************************************************************************
 "" Basic Setup
 "*****************************************************************************"
@@ -132,7 +132,7 @@ endif
 set gcr=a:blinkon0
 
 set scrolloff=3
-
+let loaded_matchparen = 1
 
 "" Status bar
 set laststatus=2
@@ -155,6 +155,10 @@ nnoremap N Nzzzv
 if exists("*fugitive#statusline")
   set statusline+=%{fugitive#statusline()}
 endif
+" vim-ragtag
+inoremap <M-o>       <Esc>o
+inoremap <C-j>       <Down>
+let g:ragtag_global_maps = 1
 
 " vim-airline
 let g:airline_theme = 'powerlineish'
@@ -367,7 +371,8 @@ function! s:build_go_files()
     call go#cmd#Build(0)
   endif
 endfunction
-
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
